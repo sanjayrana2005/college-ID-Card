@@ -1,0 +1,117 @@
+body {
+    background-color: white;
+}
+
+.outer {
+    background-color: yellow;
+    width: 270px;
+    height: 353px;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.first {
+    background-color: white;
+    width: 270px;
+    height: 90px;
+    border-top: 1px solid black;
+    display: flex;
+    
+}
+
+.img1 {
+    margin-top: 20px;
+    margin-left: 9px;
+    display:inline-block;
+}
+
+h4{
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+
+.img2 {
+    float: right;
+    margin-top: -45px;
+    margin-right: 10px;
+    display: inline-block;   
+}
+
+.second {
+    background-color: rgb(2, 2, 63);
+    width: 270px;
+    height: 155px;
+    color: white;
+    font-size: px;
+}
+
+.signature {
+    float: right;
+    margin-right: -15px;
+    display: inline-block;
+    height: 10px;
+    margin-top:-30px;
+    font-family:'Brush Script MT', cursive;
+    font-size: 12px;
+}
+
+.line {
+    float : right;
+    margin-right: -24px;
+    margin-top: -18px;
+    display: inline-block;
+}
+
+.c1 {
+    font-size: 10px;
+}
+
+.c2 {
+    float: right;
+    margin-top: -18px;
+    font-size: 7px;
+    margin-right: -20px;
+}
+
+.c2 p {
+    font-size:10px;
+}
+
+.third {
+    background-color: beige;
+    width: 270px;
+    height: 85px;
+    margin-top: -10px;
+    border-bottom: 1px solid black;
+}
+
+.text {
+    font-size: 10px;
+    margin-left: 3px;
+    padding-top: 2px;
+}
+
+.text1 {
+    font-size: 10px;
+    text-align: center;
+    margin-top: -9px;
+}
+
+.text2 {
+    font-size: 10px;
+    text-align: center;
+    margin-top: -9px;
+}
+
+.text3 {
+    margin-top:-18px ;
+    text-align: center;
+    font-size: 10px;
+}
+
+.text4 {
+    font-size: 9px;
+    text-align: center;
+    margin-top: -1px;
+}
