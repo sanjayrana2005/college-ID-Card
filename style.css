@@ -1,4 +1,8 @@
 body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
 }
 
@@ -6,9 +10,9 @@ body {
     background-color: yellow;
     width: 270px;
     height: 353px;
-    margin: auto;
     padding-top: 10px;
     border-radius: 10px;
+    box-shadow: 8px 10px 8px #ddd;
 }
 
 .first {
@@ -17,16 +21,16 @@ body {
     height: 90px;
     border-top: 1px solid black;
     display: flex;
-    
+
 }
 
 .img1 {
     margin-top: 20px;
     margin-left: 9px;
-    display:inline-block;
+    display: inline-block;
 }
 
-h4{
+h4 {
     margin-left: 50px;
     margin-bottom: 70px;
 }
@@ -35,7 +39,7 @@ h4{
     float: right;
     margin-top: -45px;
     margin-right: 10px;
-    display: inline-block;   
+    display: inline-block;
 }
 
 .second {
@@ -51,13 +55,13 @@ h4{
     margin-right: -15px;
     display: inline-block;
     height: 10px;
-    margin-top:-30px;
-    font-family:'Brush Script MT', cursive;
+    margin-top: -30px;
+    font-family: 'Brush Script MT', cursive;
     font-size: 12px;
 }
 
 .line {
-    float : right;
+    float: right;
     margin-right: -24px;
     margin-top: -18px;
     display: inline-block;
@@ -75,7 +79,7 @@ h4{
 }
 
 .c2 p {
-    font-size:10px;
+    font-size: 10px;
 }
 
 .third {
@@ -105,7 +109,7 @@ h4{
 }
 
 .text3 {
-    margin-top:-18px ;
+    margin-top: -18px;
     text-align: center;
     font-size: 10px;
 }
@@ -114,4 +118,19 @@ h4{
     font-size: 9px;
     text-align: center;
     margin-top: -1px;
+}
+
+.hr-line {
+    margin-top: -5px;
+    display: block;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 80%;
+}
+
+.phone-detail {
+    margin-top: -5px;
 }
